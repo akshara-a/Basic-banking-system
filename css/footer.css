@@ -1,0 +1,52 @@
+footer{
+	background-color:rgb(233, 233, 181);
+    box-sizing: border-box;
+    padding: 40px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fa-instagram{
+    font-size: 24px;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.fa-instagram:hover{
+    color: white;
+}
+
+.fa-blogger{
+    font-size: 24px;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.fa-blogger:hover{
+    color: white;
+}
+
+.fa-github{
+    font-size: 24px;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.fa-github:hover{
+    color: white;
+}
+
+.fa-linkedin-in{
+    font-size: 24px;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.fa-linkedin-in:hover{
+    color: white;
+}

@@ -1,0 +1,76 @@
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+table {
+  width: 75%;
+  border: 1px solid black;
+}
+
+th{
+  text-align: center;
+  padding: 10px; 
+  border: 1px solid black;
+}
+td{
+  padding: 10px; 
+  font-size: 14px;
+  border: 1px solid black;
+}
+th{
+background-color:rgb(219, 219, 83);
+color: black;
+font-size: 18px;
+}
+
+tr:nth-child(even){
+  background-color: lightyellow;
+}
+tr:nth-child(odd){
+  background-color: rgb(219, 219, 83);
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 8px;
+    background-color: white;
+}
+input:hover{
+  background-color:rgb(219, 219, 83);
+}
+
+.img-format{
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px)  {
+  td{
+    padding-top: 10px;
+    font-size: 10px;
+    border: 1px solid black;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  th{
+  background-color:rgb(219, 219, 83);
+  color: black;
+  font-size: 11px;
+  }
+  input{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 6px;
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .img-format{
+   width: 360px;
+   height: 300px;
+  }
+}
