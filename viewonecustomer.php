@@ -25,8 +25,8 @@
         </form>
 </center>
             <?php
-            $connection = mysqli_connect("localhost", "id15190826_akshara", "uCQ9ig6h{crHRt&^");
-            $db = mysqli_select_db($connection, 'id15190826_banking');
+            $connection = mysqli_connect("localhost", "root", "");
+            $db = mysqli_select_db($connection, 'dbName');
             if(isset($_POST['search']))
             {
                 $id = $_POST['id'];
